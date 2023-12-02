@@ -2,46 +2,59 @@
 
     <ul class="responsive-table">
       <li class="table-header">
-        <div class="col col-1"><b>Job Id</b></div>
-        <div class="col col-2"><b>Customer Name</b></div>
-        <div class="col col-3"><b>Amount Due</b></div>
-        <div class="col col-4"><b>Payment Status</b></div>
-        <div class="col col-5"><b>Actions</b></div>
+        <div class="col col-1"><b>User Name</b></div>
+        <div class="col col-2"><b>Submission Date</b></div>
+        <div class="col col-3"><b>Event Date</b></div>
+        <div class="col col-4"><b>Description</b></div>
+        <div class="col col-5"><b>Booking Status</b></div>
+        <div class="col col-6"><b>Event Type</b></div>  
+        <div class="col col-7"><b>Head Count</b></div>
+        <div class="col col-8"><b>Amount</b></div>
       </li>
       <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42235</div>
-        <div class="col col-2" data-label="Customer Name">John Doe</div>
-        <div class="col col-3" data-label="Amount">$350</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        <div class="col col-5" data-label="Payment Status"><button>Click</button></div>
-      </li>
-      <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42442</div>
-        <div class="col col-2" data-label="Customer Name">Jennifer Smith</div>
-        <div class="col col-3" data-label="Amount">$220</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        <div class="col col-5" data-label="Payment Status"><button>Click</button></div>
-      </li>
-      <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42257</div>
-        <div class="col col-2" data-label="Customer Name">John Smith</div>
-        <div class="col col-3" data-label="Amount">$341</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        <div class="col col-5" data-label="Payment Status"><button>Click</button></div>
-      </li>
-      <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42311</div>
-        <div class="col col-2" data-label="Customer Name">John Carpenter</div>
-        <div class="col col-3" data-label="Amount">$115</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        <div class="col col-5" data-label="Payment Status"><button>Click</button></div>
-      </li>
-      <li class="table-row">
-        <div class="col col-1" data-label="Job Id">42311</div>
-        <div class="col col-2" data-label="Customer Name">John Carpenter</div>
-        <div class="col col-3" data-label="Amount">$115</div>
-        <div class="col col-4" data-label="Payment Status">Pending</div>
-        <div class="col col-5" data-label="Payment Status"><button>Click</button></div>
+        <div class="col col-1" data-label="User Name">John</div>
+        <div class="col col-2" data-label="Submission Date">Nov 30, 2023</div>
+        <div class="col col-3" data-label="Event">Nov 30, 2023</div>
+        <div class="col col-4" data-label="Description">XYZ</div>
+        <div class="col col-5" data-label="Booking Status">
+          <select>
+            <option value="Pending">Pending</option>
+            <option value="Verified">Verified</option>
+            <option value="Booked">Booked</option>
+            <option value="Confirmed">Confirmed</option>
+            <option value="Rejected">Rejected</option>
+          </select>
+          <button type="submit" class="btn btn-primary">update</button>&nbsp;&nbsp;
+        </div>
+        <div class="col col-6" data-label="Event Type">Leadership Meeting</div>
+        <div class="col col-7" data-label="Head Count">100</div>
+        <div class="col col-8" data-label="Head Count">1000</div>
       </li>
     </ul>
   </div>
+
+ <!-- 
+
+
+  <ul class="responsive-table">
+  <li class="table-header">
+   
+    <div class="col col-8"><b>Amount</b></div>
+    <div class="col col-9"><b>Actions</b></div> 
+  </li>
+  <li class="table-row">
+   
+    <div class="col col-8" data-label="Amount">$5000</div>
+    <div class="col col-9" data-label="Actions">
+      <select>
+        <option value="Pending">Pending</option>
+        <option value="Verified">Verified</option>
+        <option value="Booked">Booked</option>
+        <option value="Confirmed">Confirmed</option>
+      </select>
+      <button type="submit">Update</button>
+    </div>
+  </li>
+</ul>
+
+  -->

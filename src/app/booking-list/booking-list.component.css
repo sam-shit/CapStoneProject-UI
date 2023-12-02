@@ -44,33 +44,38 @@ h2 {
 }
 
 .responsive-table .col-1 {
-    flex-basis: 10%;
+    flex-basis:11%;
 }
 
 .responsive-table .col-2 {
-    flex-basis: 15%;
+    flex-basis: 11%;
 }
 
 .responsive-table .col-3 {
-    flex-basis: 20%;
+    flex-basis: 11%;
 }
 
 .responsive-table .col-4 {
-    flex-basis: 20%;
+    flex-basis: 11%;
 }
 
 .responsive-table .col-5 {
-    flex-basis: 15%;
+    flex-basis: 11%;
 }
 
 .responsive-table .col-6 {
-    flex-basis: 10%;
+    flex-basis: 11%;
 }
 
 .responsive-table .col-7 {
+    flex-basis: 11%;
+}
+.responsive-table .col-8 {
+    flex-basis: 12%;
+}
+.responsive-table .col-9 {
     flex-basis: 10%;
 }
-
 button {
     width: fit-content;
     min-width: 100px;

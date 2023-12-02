@@ -12,7 +12,11 @@ import { ListPaymentsComponent } from './list-payments/list-payments.component';
 import { MakePaymentComponent } from './make-payment/make-payment.component';
 import { AdminListComponent } from './admin-list/admin-list.component';
 import { CreateBookingComponent } from './create-booking/create-booking.component';
-import { OrganizerDashboardComponent } from './organizer-dashboard/organizer-dashboard.component';
+import { OrganizerDashoardComponent } from './OrganizerComponant/organizer-dashoard/organizer-dashoard.component';
+import { ViewEventComponent } from './view-event/view-event.component';
+import { ViewPaymentListComponent } from './view-payment-list/view-payment-list.component';
+import { BookingListComponent } from './booking-list/booking-list.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { OrganizerDashboardComponent } from './organizer-dashboard/organizer-das
     MakePaymentComponent,
     AdminListComponent,
     CreateBookingComponent,
-    OrganizerDashboardComponent
+    OrganizerDashoardComponent,
+    ViewEventComponent,
+    ViewPaymentListComponent,
+    BookingListComponent,
+ 
   ],
   imports: [
     BrowserModule,

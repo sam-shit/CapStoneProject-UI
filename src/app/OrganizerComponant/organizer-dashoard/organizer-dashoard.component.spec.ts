@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OrganizerDashboardComponent } from './organizer-dashboard.component';
+import { OrganizerDashoardComponent } from './organizer-dashoard.component';
 
-describe('OrganizerDashboardComponent', () => {
-  let component: OrganizerDashboardComponent;
-  let fixture: ComponentFixture<OrganizerDashboardComponent>;
+describe('OrganizerDashoardComponent', () => {
+  let component: OrganizerDashoardComponent;
+  let fixture: ComponentFixture<OrganizerDashoardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OrganizerDashboardComponent ]
+      declarations: [ OrganizerDashoardComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OrganizerDashboardComponent);
+    fixture = TestBed.createComponent(OrganizerDashoardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,9 +1,13 @@
+*{
+  /* background-color: #279EFF; */
+}
 .card {
-  --bg: #f7f7f8;
-  --hover-bg: #dadada;
+  --bg: #A5D7E8;
+  --hover-bg: #19376D;
   --hover-text: #7e7e7e;
   max-width: 1500px;
   margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   background: var(--bg);
   padding: 1.5em;
@@ -21,11 +25,12 @@
 
 a{
   text-decoration: none;
-  color: #7e7e7e;
+  color: white;
 }
 
 .card__body {
-  color: #464853;
+  /* color: #464853; */
+  color: black;
   line-height: 1.5em;
   font-size: 1em;
 }
